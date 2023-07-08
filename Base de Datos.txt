@@ -1,0 +1,10 @@
+CREATE TABLE `estudiantes` (
+	`id` int NOT NULL AUTO_INCREMENT,
+	`nombre` varchar(255) NOT NULL,
+	`apellido` varchar(255),
+	PRIMARY KEY (`id`)
+) ENGINE InnoDB,
+
+INSERT persona (nombre, apellido) VALUES ('Jefferson','Flores Gaspar');
+
+select * from estudiantes;
